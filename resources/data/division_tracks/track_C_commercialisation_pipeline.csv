@@ -1,9 +1,0 @@
-﻿opportunity_id,technology,company,owner,stage,trl,days_in_stage,next_gate,gate_due_date,blocker,estimated_value_rm
-CMT001,Robotic inspection module,Nexa Robotics,Farah,Pilot negotiation,7,42,Signed pilot scope,2026-09-15,Commercial terms,380000
-CMT002,Bio-assay platform,BioNova Labs,Amir,Licensing review,6,65,IP review complete,2026-09-05,Patent schedule incomplete,520000
-CMT003,Grid optimisation controller,GreenGrid Energy,Siti,Customer validation,7,31,Reference site confirmed,2026-09-20,Site availability,450000
-CMT004,Quantum sensor package,QuantumWorks,,Commercial assessment,5,78,Named opportunity owner,2026-09-03,No internal owner,620000
-CMT005,AI clinical workflow,Medivista AI,Aina,Partner onboarding,8,28,Data-sharing terms,2026-09-18,Legal review,300000
-CMT006,Blue-plastic recovery unit,OceanLoop,,Pilot scoping,6,93,Technical site visit,2026-09-08,Owner + customer response,270000
-CMT007,Semiconductor test IP,CircuitTree,Wei,Commercialisation plan,6,19,Pricing model,2026-09-25,None,800000
-CMT008,Advanced coating material,Orbital Materials,Hani,Qualification,5,54,Lab validation,2026-09-30,External test slot,410000
