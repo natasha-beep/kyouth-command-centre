@@ -1,0 +1,17 @@
+﻿milestone_id,company_name,milestone,due_date,completion_date,milestone_status,follow_up_required,owner
+M001,Nexa Robotics Sdn Bhd,Prototype validation,2025-06-30,2025-06-25,Completed,No,Farah
+M002,BioNova Labs Sdn. Bhd.,Regulatory submission,2025-09-15,2025-10-02,completed late,No,Amir
+M003,GreenGrid Energy,Pilot deployment,2025-02-28,,Overdue,Yes,Siti
+M004,QuantumWorks,Customer LOI,2025-08-31,,In Progress,Yes,
+M005,AeroSense Technologies,Sandbox test,2026-04-30,,on hold,Yes,Jason
+M006,Medivista AI Sdn Bhd,Clinical partner onboarding,2026-06-30,,IN PROGRESS,No,Aina
+M007,NEXA ROBOTICS SDN. BHD.,Commercial pilot,2025-12-15,,Delayed,Yes,Farah
+M008,UrbanFarmX,Field trial,2025-11-30,2025-11-20,Complete,No,Hafiz
+M009,DataForge Analytics,First enterprise contract,2024-12-31,2025-01-15,Completed Late,No,Mira
+M010,OceanLoop Sdn Bhd,Prototype validation,2026-01-31,,Overdue,YES,
+M011,CircuitTree Technologies,Foundry qualification,2026-09-30,,Not Started,No,Wei
+M012,Bio Nova Labs,Export market readiness,2026-02-28,,delayed,Yes,Amir
+M013,SolarMesh,Site commissioning,2024-10-31,2024-10-30,Completed,No,Dina
+M014,NeuroLink Assistive,User acceptance testing,2026-08-31,,In progress,No,Nadia
+M015,AgriPulse Systems,Distributor onboarding,2025-07-31,,OVERDUE,Yes,Azlan
+M016,Orbital Materials,Material certification,2026-10-31,,Not started,No,Hani

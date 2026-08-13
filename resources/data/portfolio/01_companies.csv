@@ -1,0 +1,17 @@
+﻿company_id,company_name,state,sector,programme,cohort_year,contact_owner,active_flag
+C001,Nexa Robotics Sdn Bhd,Selangor,Robotics,Accelerator,2025,Farah,Y
+C002,BioNova Labs Sdn. Bhd.,Kuala Lumpur,Biotech,Commercialisation,2025,Amir,Yes
+C003,GreenGrid Energy,Johor,Clean Tech,Accelerator,2024,Siti,Y
+C004,QuantumWorks,Penang,Deeptech,Commercialisation,2025,,Y
+C005,AeroSense Technologies,Selangor,Aerospace,Sandbox,2026,Jason,N
+C006,Medivista AI Sdn Bhd,Kuala Lumpur,HealthTech,Accelerator,2026,Aina,Y
+,NEXA ROBOTICS SDN. BHD.,selangor,robotics,accelerator,2025,Farah,Y
+C008,UrbanFarmX,Perak,AgriTech,Sandbox,2025,Hafiz,Yes
+C009,DataForge Analytics,Johor,Digital,Commercialisation,2024,Mira,Y
+C010,OceanLoop Sdn Bhd,Sabah,Blue Economy,Accelerator,2025,,Y
+C011,CircuitTree Technologies,Penang,Semiconductor,Commercialisation,2026,Wei,Y
+C012,Bio Nova Labs,KL,Biotechnology,commercialisation,2025,Amir,Y
+C013,SolarMesh,Sarawak,CleanTech,Sandbox,2024,Dina,Y
+C014,NeuroLink Assistive,Selangor,Health Tech,Accelerator,2026,Nadia,Y
+C015,AgriPulse Systems,Kedah,Agritech,Commercialisation,2025,Azlan,Y
+C016,Orbital Materials,Penang,Advanced Materials,Accelerator,2026,Hani,Y

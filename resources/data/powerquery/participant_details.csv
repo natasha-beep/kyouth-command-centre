@@ -1,0 +1,11 @@
+﻿participant_email,participant_segment,state,sector,contact_consent
+participant001@example.test,Startup,Selangor,Robotics,Yes
+participant002@example.test,Startup,KL,Biotechnology,Y
+participant003@example.test,Startup,Johor,Clean Tech,Yes
+participant004@example.test,Partner,Penang,Deeptech,No
+participant005@example.test,Startup,selangor,Aerospace,Y
+participant006@example.test,Startup,Kuala Lumpur,Health Tech,Yes
+participant009@example.test,Partner,Johor,Digital,YES
+participant010@example.test,Startup,Sabah,Blue Economy,Yes
+participant011@example.test,Startup,Penang,Semiconductor,No
+participant012@example.test,Startup,Kuala Lumpur,Biotech,Yes

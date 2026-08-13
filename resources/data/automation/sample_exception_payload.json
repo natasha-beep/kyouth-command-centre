@@ -1,0 +1,44 @@
+{
+  "run_id": "TRAINING-2026-09-01-001",
+  "run_timestamp": "2026-09-01T09:00:00+08:00",
+  "status": "REVIEW_REQUIRED",
+  "trusted_kpis": {
+    "canonical_companies": 14,
+    "active_companies": 13,
+    "recorded_approved_rm": 4915000,
+    "recorded_disbursed_rm": 2120000,
+    "open_milestones": 11,
+    "past_due_open_milestones": 8
+  },
+  "critical_exceptions": [
+    {
+      "type": "UNMATCHED_COMPANY",
+      "record_id": "A1017",
+      "entity": "Unknown Venture",
+      "financial_impact_rm": 150000,
+      "action": "Resolve company identity and amount semantics before trusted reporting."
+    },
+    {
+      "type": "MISSING_OWNER",
+      "record_id": "M004",
+      "entity": "QuantumWorks",
+      "action": "Assign milestone owner and recovery date."
+    },
+    {
+      "type": "MISSING_OWNER",
+      "record_id": "M010",
+      "entity": "OceanLoop Sdn Bhd",
+      "action": "Assign milestone owner and recovery date."
+    }
+  ],
+  "overdue_items": [
+    "M003",
+    "M004",
+    "M005",
+    "M006",
+    "M007",
+    "M010",
+    "M012",
+    "M015"
+  ]
+}

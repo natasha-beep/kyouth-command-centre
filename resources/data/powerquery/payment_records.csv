@@ -1,0 +1,10 @@
+﻿payment_id,participant_email,fee_rm,payment_status,payment_date
+P001,participant001@example.test,150,Paid,2026-07-01
+P002,participant002@example.test,150,PAID,2026-07-01
+P003,participant003@example.test,150,Pending,
+P004,participant004@example.test,150,Refunded,2026-07-03
+P005,participant005@example.test,150,paid,2026-07-04
+P006,participant006@example.test,150,Paid,2026-07-04
+P007,participant009@example.test,150,Paid,2026-07-05
+P008,participant010@example.test,150,Pending,
+P009,participant012@example.test,150,Paid,2026-07-07

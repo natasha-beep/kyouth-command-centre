@@ -1,0 +1,22 @@
+{
+  "executive_summary": "string - max 80 words, only supported by supplied payload",
+  "critical_issues": [
+    {
+      "record_id": "string",
+      "issue": "string",
+      "business_impact": "string"
+    }
+  ],
+  "overdue_items": [
+    {
+      "record_id": "string",
+      "action": "string"
+    }
+  ],
+  "recommended_actions": [
+    "string"
+  ],
+  "confidence_or_validation_notes": [
+    "string"
+  ]
+}

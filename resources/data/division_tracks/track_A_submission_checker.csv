@@ -1,0 +1,13 @@
+﻿submission_id,vendor,requirement,evidence_present,evidence_quality,page_reference,reviewer_note
+S001,Vendor Alpha,Company registration,Yes,Complete,p.4,Valid copy
+S001,Vendor Alpha,3-year audited financials,Yes,Partial,pp.18-27,Only 2 years visible
+S001,Vendor Alpha,Relevant project experience,Yes,Complete,pp.31-38,3 comparable projects
+S001,Vendor Alpha,Key personnel CVs,No,Missing,,Not found
+S002,Vendor Beta,Company registration,Yes,Complete,p.3,Valid copy
+S002,Vendor Beta,3-year audited financials,Yes,Complete,pp.14-40,3 years
+S002,Vendor Beta,Relevant project experience,Yes,Partial,pp.46-49,One project lacks scope detail
+S002,Vendor Beta,Key personnel CVs,Yes,Complete,pp.53-62,4 CVs
+S003,Vendor Gamma,Company registration,Yes,Complete,p.5,
+S003,Vendor Gamma,3-year audited financials,No,Missing,,No audited statements
+S003,Vendor Gamma,Relevant project experience,Yes,Complete,pp.22-30,
+S003,Vendor Gamma,Key personnel CVs,Yes,Partial,pp.34-38,One role missing
