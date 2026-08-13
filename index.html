@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MRANTI x GRADUAN K-Youth Command Centre</title>
+  <meta name="description" content="Ready-to-run command centre for MRANTI x GRADUAN K-Youth Development Programme 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-rule"></div>
+  <header class="site-header">
+    <div class="header-row">
+      <button class="brand" data-view-link="overview" aria-label="Overview"><span class="brand-mark">M30</span><span><b>MRANTI x GRADUAN</b><small>K-Youth Development Programme 2026</small></span></button>
+      <div class="header-context"><span>COMMAND CENTRE</span><strong>Graduate Intake · 20 August 2026</strong><small>4 graduates · hands-on delivery model</small></div>
+    </div>
+    <nav class="main-nav" aria-label="Portal navigation">
+      <button class="active" data-view="overview"><span>00</span>Index</button>
+      <button data-view="calendar"><span>01</span>Calendar & Roadmap</button>
+      <button data-view="execution"><span>02</span>20 Aug Execution</button>
+      <button data-view="bootcamp"><span>03</span>Bootcamp Lab</button>
+      <button data-view="projects"><span>04</span>Division Projects</button>
+      <button data-view="github"><span>05</span>GitHub Pages</button>
+      <button data-view="brief"><span>06</span>Boss Brief</button>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="view active" id="overview">
+      <section class="hero">
+        <div class="hero-visual" aria-hidden="true"><span></span><span></span><span></span><i></i></div>
+        <div class="hero-main">
+          <span class="eyebrow">READY-TO-RUN PROGRAMME SYSTEM</span>
+          <h1>One place to brief,<br><em>run and track.</em></h1>
+          <p>This command centre turns the K-Youth intake into a practical delivery sprint. The graduates will not sit through lectures; they will diagnose a real business problem, build a working web output, deploy it through GitHub Pages, and present the business value.</p>
+          <div class="cta-row"><button data-go="calendar">Open roadmap</button><button class="ghost" data-go="execution">Run 20 Aug</button></div>
+        </div>
+        <aside class="hero-panel">
+          <div class="hero-panel-top"><span class="signal"></span><span>FACILITATOR MODE</span></div>
+          <div class="hero-panel-copy"><strong>Problem → Build → Deploy.</strong><p>The programme teaches the workflow that already impressed management: use AI with intent, create a complete web package, publish with GitHub Pages, and iterate based on feedback.</p></div>
+          <div class="hero-stats"><div><small>INTAKE</small><b>4 graduates · 20 Aug 2026</b></div><div><small>CORE METHOD</small><b>Hands-on business solution lab</b></div><div><small>FINAL OUTPUT</small><b>Live deployed prototype + showcase</b></div></div>
+        </aside>
+      </section>
+
+      <section class="index-list">
+        <div class="index-head"><span>PROGRAMME INDEX</span><small>6 operating views</small></div>
+        <button data-go="calendar"><span class="n">01</span><strong>Calendar & Roadmap</strong><small>Preparation week, 20 Aug intake day, and post-intake delivery sprints.</small><b>Open ↗</b></button>
+        <button data-go="execution"><span class="n">02</span><strong>20 August Execution</strong><small>Minute-by-minute facilitator plan with what to say, show, and ask graduates to produce.</small><b>Open ↗</b></button>
+        <button data-go="bootcamp"><span class="n">03</span><strong>Bootcamp Lab</strong><small>Hands-on exercises for problem framing, AI prompting, data storytelling and prototype building.</small><b>Open ↗</b></button>
+        <button data-go="projects"><span class="n">04</span><strong>Division Projects</strong><small>Framework for assigning graduates to actual MRANTI business problems after activation.</small><b>Open ↗</b></button>
+        <button data-go="github"><span class="n">05</span><strong>GitHub Pages Deployment</strong><small>Simple deployment workflow they can repeat for every prototype.</small><b>Open ↗</b></button>
+        <button data-go="brief"><span class="n">06</span><strong>Boss / Team Brief</strong><small>A clean talking track to explain the programme intent, roadmap, roles and decision points.</small><b>Open ↗</b></button>
+      </section>
+    </section>
+
+    <section class="view" id="calendar">
+      <div class="page-title"><span class="eyebrow">01 / CALENDAR & ROADMAP</span><h2>Clear roadmap for team and boss briefing</h2><p>Use this view in your briefing. It shows what needs to be ready before the graduates arrive and how the programme moves from onboarding into real work.</p></div>
+      <section class="module modern-module"><div class="module-head"><div><span>READINESS CALENDAR</span><h3>Now to Graduate Intake</h3></div><small>13–20 August 2026</small></div><div class="timeline" id="readinessTimeline"></div></section>
+      <section class="module modern-module"><div class="module-head"><div><span>PROGRAMME ROADMAP</span><h3>Activation to Showcase</h3></div><small>20 Aug – 2 Oct 2026</small></div><div class="roadmap-grid" id="roadmapGrid"></div></section>
+      <section class="module modern-module"><div class="module-head"><div><span>EXECUTIVE SUMMARY</span><h3>What management needs to understand</h3></div></div><div class="three-cols"><article><span>01</span><b>Not a lecture</b><p>Every module has an output: problem statement, prompt chain, prototype, deployment link, or final showcase.</p></article><article><span>02</span><b>Real MRANTI work</b><p>Graduates start with guided lab cases, then transition into division-owned business problems.</p></article><article><span>03</span><b>Visible delivery</b><p>Progress is tracked through deployed GitHub Pages outputs and weekly demos, not attendance alone.</p></article></div></section>
+    </section>
+
+    <section class="view" id="execution">
+      <div class="page-title"><span class="eyebrow">02 / 20 AUGUST EXECUTION</span><h2>Facilitator control room</h2><p>This is the page to keep open during the intake day. Each block tells you what to do, what to say, and what the graduates must produce.</p></div>
+      <section class="runlist" id="runlist"></section>
+      <section class="module modern-module"><div class="module-head"><div><span>SESSION RULE</span><h3>Every 30–45 minutes must produce something tangible</h3></div></div><div class="quote-panel"><b>Facilitator line:</b><p>“This programme is not about watching slides. You are here to learn how to solve real problems, use AI properly, build working outputs, and explain your thinking like professionals.”</p></div></section>
+    </section>
+
+    <section class="view" id="bootcamp">
+      <div class="page-title"><span class="eyebrow">03 / BOOTCAMP LAB</span><h2>Hands-on learning design</h2><p>The bootcamp uses controlled practice first, then pushes graduates into real division problems. The GasMY-style GitHub workflow becomes a teaching case.</p></div>
+      <section class="lab-board" id="labBoard"></section>
+      <section class="module modern-module"><div class="module-head"><div><span>PROMPT SYSTEM</span><h3>Graduate prompt chain</h3></div><a href="prompts/prompt_pack.md" target="_blank">Open prompt pack ↗</a></div><div class="prompt-grid"><article><b>1. Clarify the business problem</b><code>Act as a business analyst. Help me separate symptoms, root causes, stakeholders, data needed and success criteria.</code></article><article><b>2. Turn problem into requirements</b><code>Convert this business problem into a web dashboard / microsite requirement with sections, data, user actions and acceptance criteria.</code></article><article><b>3. Generate complete web package</b><code>Create index.html, styles.css and app.js for GitHub Pages. Make it polished, executive-friendly and easy to update.</code></article><article><b>4. Review and improve</b><code>Audit this output for clarity, usability, missing assumptions and executive readiness. Propose fixes before final deployment.</code></article></div></section>
+    </section>
+
+    <section class="view" id="projects">
+      <div class="page-title"><span class="eyebrow">04 / DIVISION PROJECTS</span><h2>Real workstream assignment model</h2><p>After the activation lab, each graduate should be attached to one real business challenge with a division sponsor and a weekly demo rhythm.</p></div>
+      <section class="module modern-module"><div class="module-head"><div><span>PROJECT PIPELINE</span><h3>4 graduates · 4 delivery tracks</h3></div><small>Replace the sample titles if needed</small></div><div class="project-grid" id="projectGrid"></div></section>
+      <section class="module modern-module"><div class="module-head"><div><span>WEEKLY OPERATING RHYTHM</span><h3>Simple governance cadence</h3></div></div><div class="cadence"><div><b>Monday</b><span>Clarify this week’s deliverable and blockers</span></div><div><b>Wednesday</b><span>Prototype check and sponsor feedback</span></div><div><b>Friday</b><span>Demo, lessons learnt and next-week backlog</span></div></div></section>
+    </section>
+
+    <section class="view" id="github">
+      <div class="page-title"><span class="eyebrow">05 / GITHUB PAGES DEPLOYMENT</span><h2>The workflow your boss liked</h2><p>This module teaches graduates how to create a polished HTML output with AI assistance and publish it as a live link using GitHub Pages.</p></div>
+      <section class="deploy-flow"><article><span>01</span><b>Create repo</b><p>Name it clearly, e.g. <code>kyouth-prototype-energy</code>.</p></article><article><span>02</span><b>Add files</b><p>Upload <code>index.html</code>, <code>styles.css</code>, <code>app.js</code>, data files and <code>.nojekyll</code>.</p></article><article><span>03</span><b>Enable Pages</b><p>Settings → Pages → Deploy from branch → main / root.</p></article><article><span>04</span><b>Test live link</b><p>Open the published link, fix broken assets, and capture feedback.</p></article></section>
+      <section class="module modern-module"><div class="module-head"><div><span>DEPLOYMENT ACCEPTANCE CRITERIA</span><h3>Before graduate can mark it complete</h3></div></div><div class="checklist"><label><input type="checkbox"> Live GitHub Pages link opens without error</label><label><input type="checkbox"> Page has clear purpose, audience and source notes</label><label><input type="checkbox"> Navigation works on desktop and mobile</label><label><input type="checkbox"> README explains how to update the prototype</label><label><input type="checkbox"> Graduate can explain the business value in 2 minutes</label></div></section>
+    </section>
+
+    <section class="view" id="brief">
+      <div class="page-title"><span class="eyebrow">06 / BOSS & TEAM BRIEF</span><h2>Briefing script and decision points</h2><p>Use this to align your boss and internal team quickly before the intake starts.</p></div>
+      <section class="brief-grid"><article><span>POSITIONING</span><h3>What this programme is</h3><p>A practical graduate activation programme where each participant learns by producing visible work: problem statements, AI-assisted prototypes, GitHub Pages deployments and final business readouts.</p></article><article><span>NOT THIS</span><h3>What this programme avoids</h3><p>It is not slide-heavy classroom training, generic motivation, or AI theory. Every learning block ends with a tangible output.</p></article><article><span>ASK FROM BOSS</span><h3>What needs approval</h3><p>Confirm the first 4 division challenge areas, sponsors, expected deliverables and permission for graduates to use GitHub Pages as a working prototype environment.</p></article><article><span>SUCCESS MEASURE</span><h3>How we know it worked</h3><p>Each graduate delivers a working link, a clear business story, and evidence that the output was tested with a real internal user or sponsor.</p></article></section>
+      <section class="module modern-module"><div class="module-head"><div><span>TALK TRACK</span><h3>60-second explanation</h3></div></div><div class="quote-panel"><p>“For the 20 August intake, I propose we run K-Youth as a hands-on delivery programme rather than a lecture-based onboarding. The graduates will learn the same workflow we have already used successfully: identify a real business problem, use AI properly to structure and build the solution, create a polished web output, deploy it through GitHub Pages, and present the business value. The roadmap gives us one week to prepare, one activation bootcamp, then division-based project sprints with weekly demos and a final showcase.”</p></div></section>
+    </section>
+  </main>
+  <script src="data/programme.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
