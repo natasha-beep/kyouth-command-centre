@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MRANTI x GRADUAN K-Youth Command Centre</title>
+  <meta name="description" content="K-Youth 2026 programme calendar, daily agenda and materials in one command centre.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-rule"></div>
+
+  <header class="site-header">
+    <div class="header-row">
+      <button class="logo-button" data-view-link="calendar" aria-label="Programme calendar">
+        <img src="https://cdn.prod.website-files.com/6719e3902a71ea8154ba371d/6996a2c470a01e3f32ffa080_M30.png" alt="MRANTI">
+      </button>
+      <div class="header-context">
+        <span>K-YOUTH COMMAND CENTRE</span>
+        <strong>MRANTI x GRADUAN · 2026</strong>
+        <small>Calendar · agenda · daily materials</small>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="Command centre navigation">
+      <button class="active" data-view="calendar"><span>01</span>Calendar & Day Packs</button>
+      <button data-view="materials"><span>02</span>Materials Library</button>
+      <button data-view="brief"><span>03</span>Team / Boss Brief</button>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="view active" id="calendar">
+      <section class="command-head">
+        <div>
+          <span class="eyebrow">PROGRAMME CONTROL</span>
+          <h1>K-Youth Programme<br><em>Command Centre.</em></h1>
+          <p>Select a date. The right-hand Day Pack shows the exact agenda, owner, preparation, outputs and materials needed for that session.</p>
+        </div>
+        <div class="summary-panel">
+          <div><small>GRADUATE INTAKE</small><b>20 Aug 2026</b></div>
+          <div><small>FINAL SHOWCASE</small><b>2 Oct 2026</b></div>
+          <div><small>PARTICIPANTS</small><b>4 graduates</b></div>
+          <div><small>DELIVERY MODEL</small><b>Problem → Build → Deploy</b></div>
+        </div>
+      </section>
+
+      <section class="roadmap-module">
+        <div class="section-head">
+          <div><span>FULL ROADMAP</span><h2>13 August → 2 October 2026</h2></div>
+          <small>Click a phase to filter the calendar</small>
+        </div>
+        <div class="phase-track" id="phaseTrack"></div>
+      </section>
+
+      <section class="command-grid">
+        <aside class="calendar-pane">
+          <div class="pane-head">
+            <div><span>PROGRAMME CALENDAR</span><h2>All scheduled touchpoints</h2></div>
+            <button class="text-btn" id="showAll">Show all</button>
+          </div>
+          <div class="filter-row" id="filterRow"></div>
+          <div class="calendar-list" id="calendarList"></div>
+        </aside>
+
+        <section class="day-pane" id="dayPane" aria-live="polite">
+          <div class="day-empty">
+            <span>SELECT A DATE</span>
+            <h2>Open a Day Pack</h2>
+            <p>Everything your teammate needs for that day is kept together here: agenda, prep, outputs and direct links to the material.</p>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <section class="view" id="materials">
+      <div class="page-title">
+        <span class="eyebrow">02 / MATERIALS LIBRARY</span>
+        <h2>Every programme material in one place</h2>
+        <p>These are the same files linked from each Day Pack. The day view remains the easiest way to know which material to use and when.</p>
+      </div>
+      <div class="materials-grid" id="materialsGrid"></div>
+    </section>
+
+    <section class="view" id="brief">
+      <div class="page-title">
+        <span class="eyebrow">03 / TEAM & BOSS BRIEF</span>
+        <h2>One-page programme briefing</h2>
+        <p>Use this view when you need to explain the operating model, calendar and management decisions quickly.</p>
+      </div>
+      <section class="brief-hero">
+        <div>
+          <span>PROGRAMME POSITIONING</span>
+          <h3>Not training for training’s sake.</h3>
+          <p>Graduates learn by producing visible MRANTI work: define a real problem, build a useful output, deploy it, validate it with an internal user, and present the business value.</p>
+        </div>
+        <div class="brief-flow">
+          <b>Problem</b><i>→</i><b>Evidence</b><i>→</i><b>Build</b><i>→</i><b>Deploy</b><i>→</i><b>Validate</b><i>→</i><b>Showcase</b>
+        </div>
+      </section>
+      <section class="roadmap-module">
+        <div class="section-head"><div><span>PROGRAMME ROADMAP</span><h2>Eight phases</h2></div></div>
+        <div class="brief-roadmap" id="briefRoadmap"></div>
+      </section>
+      <section class="brief-grid">
+        <article><span>01</span><b>What management approves</b><p>Four starting challenge areas, named sponsors, safe data/material access, and permission to use GitHub Pages for prototypes.</p></article>
+        <article><span>02</span><b>How progress is seen</b><p>Working links, sponsor demos, validation findings and a final management showcase — not attendance records alone.</p></article>
+        <article><span>03</span><b>What the team does</b><p>Provide real business context, evidence, sponsor feedback and fast decisions when graduates are blocked.</p></article>
+        <article><span>04</span><b>What graduates deliver</b><p>Four scoped problems, four live prototypes, user validation, source notes, handover packages and final recommendations.</p></article>
+      </section>
+      <div class="brief-actions">
+        <a class="primary-link" href="materials/team-brief.html" target="_blank">Open printable team brief ↗</a>
+        <button class="secondary-btn" data-go-day="2026-08-20">Open 20 Aug Day Pack</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="data/programme.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
